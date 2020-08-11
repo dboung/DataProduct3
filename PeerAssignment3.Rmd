@@ -1,0 +1,44 @@
+---
+title: "Peer Assignment 3"
+author: "Disovankiri Boung"
+date: "8/11/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Interactive Plot
+
+This Shinny App is made for submission of Peer Graded Assignment 3 of Developing Data Product.
+
+This Shinny Application is an interactive plot. It will allow user to 
+
+* Choose X variable to plot
+* Choose Y variable to plot
+* Choose color of the plot
+* Choose wehther or not to display fitted line
+* Choose a variable to compute mean for different species
+
+## Data
+
+The data used in this app is taken from iris dataset of R data package.
+```{r echo=TRUE, eval=TRUE,comment=""}
+data(iris)
+head(iris)
+```
+
+## Interactive Plot
+```{r out.width = '99%'}
+library(knitr)
+knitr::include_graphics("ShinnyApp.png")
+```
+
+## Links
+
+To view the app click here: <https://dboung.shinyapps.io/MyAppHomeWork/>
+
+To view my github repo for this project : <https://github.com/dboung/DataProduct3>
+
+Thank you!!
